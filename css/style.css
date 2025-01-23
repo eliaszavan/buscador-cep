@@ -8,6 +8,13 @@
     --white: #fcfcfc;
     --black: #0c0c0c;
     --gray: #c0c0c0;
+    --dark: rgb(14, 14, 14);
+
+    --green: rgb(103, 195, 80);
+    --darkgreen: rgb(51, 149, 26);
+
+    --red: rgb(177, 46, 37);
+    --darkred: rgb(156, 26, 26);
 }
 
 body * {
@@ -24,4 +31,8 @@ body {
 
 body::-webkit-scrollbar {
     display: none;
+}
+
+body {
+    background-color: var(--dark);
 }
